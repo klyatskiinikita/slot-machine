@@ -1,0 +1,33 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(2,0,36,1) 100%);
+	position: relative;
+	color: #212121;
+}
+
+.wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+}
+
+.info.mt-3 > div:first-child, .info-block.mt-3 {
+	border-top-style: solid;
+}
+
+.customize {
+	border: 2px solid black;
+	text-align: center;
+	font-size: 3rem;
+}
